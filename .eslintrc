@@ -1,0 +1,55 @@
+parser: babel-eslint
+env:
+    es6: true
+parserOptions:
+    ecmaVersion: 6
+    sourceType: module
+    ecmaFeatures:
+        impliedStrict: true
+    allowImportExportEverywhere: false
+plugins:
+    - babel
+extends:
+    - semistandard
+rules:
+    no-unreachable: 1
+    no-empty: error
+    array-callback-return: error
+    no-var: error
+    indent:
+        - error
+        - 4
+        -
+            SwitchCase: 1
+    space-before-function-paren:
+        - error
+        - never
+    no-debugger: 0
+    prefer-const: error
+    strict: error
+    no-template-curly-in-string: error
+    consistent-return: error
+    no-multiple-empty-lines:
+        - error
+        -
+            max: 1
+            maxBOF: 0
+    no-lonely-if: error
+    new-parens: error
+    eol-last: error
+    no-array-constructor: error
+    arrow-body-style:
+        - error
+        - as-needed
+    prefer-arrow-callback:
+        - error
+        -
+            allowNamedFunctions: true
+    prefer-destructuring:
+        - error
+        -
+            object: true
+            array: false
+    prefer-spread: error
+    prefer-rest-params: error
+    valid-typeof: 0
