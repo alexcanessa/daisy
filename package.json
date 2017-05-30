@@ -1,0 +1,28 @@
+{
+  "name": "daisy",
+  "version": "0.1.0",
+  "description": "My Bitch.",
+  "main": "dist/main.js",
+  "preferGlobal": "true",
+  "bin": {
+    "daisy": "dist/main.js"
+  },
+  "author": "alexcanessa",
+  "license": "ISC",
+  "dependencies": {
+    "apiai": "^4.0.2",
+    "colors": "^1.1.2",
+    "node-json-db": "^0.7.3",
+    "node-slack": "0.0.7",
+    "object-assign-deep": "^0.3.1",
+    "prompt": "^1.0.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.4.0",
+    "babel-preset-es2015": "^6.24.1",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-watch": "^4.3.11"
+  }
+}
